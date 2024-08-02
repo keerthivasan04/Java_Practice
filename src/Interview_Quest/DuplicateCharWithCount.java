@@ -21,7 +21,6 @@ public class DuplicateCharWithCount {
                 }
             }
             visited[i] = true;
-
         }
     }
 

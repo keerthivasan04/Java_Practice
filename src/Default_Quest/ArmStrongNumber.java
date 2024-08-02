@@ -8,7 +8,7 @@ public class ArmStrongNumber {
         while (a != 0) {
             int res = a % 10;
             b = (int) (b + Math.pow(res, 3));
-            a = a/10;
+            a = a / 10;
         }
         System.out.println(b);
     }

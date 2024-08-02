@@ -41,9 +41,9 @@ public class SplitAndCountChar {
     // Pinaki
 
     public void splitAndCountFromArrayList(List<String> str) {
-        int digitCount = 0;
-        int alphabeticCount = 0;
         for (String s : str) {
+            int digitCount = 0;
+            int alphabeticCount = 0;
             for (int i = 0; i < s.length(); i++) {
                 char c = s.charAt(i);
                 if (Character.isDigit(c)) {
@@ -60,6 +60,26 @@ public class SplitAndCountChar {
         }
     }
 
+    public void splitAndCountFromArray(String[] arr) {
+        for (String str : arr) {
+           int digitCount = 0;
+           int alphabetCount = 0;
+            for (int i = 0; i < str.length(); i++) {
+                char c = str.charAt(i);
+                if (Character.isDigit(c)) {
+                    System.out.print(c);
+                    digitCount++;
+                } else if (Character.isAlphabetic(c)) {
+                    System.out.print(c);
+                    alphabetCount++;
+                }
+            }
+            System.out.println();
+            System.out.println("digitCount : " + digitCount);
+            System.out.println("alphabetCount : " + alphabetCount);
+        }
+    }
+
     public static void main(String[] args) {
         SplitAndCountChar im = new SplitAndCountChar();
         im.splitAndCountFromString("123456ABCDabcde789@#$%^");
@@ -67,6 +87,8 @@ public class SplitAndCountChar {
         str.add("12345AbCd");
         str.add("AbCdEf6789");
         im.splitAndCountFromArrayList(str);
+        String[] arr = {"abcd1234", "efgh5678", "ij90"};
+        im.splitAndCountFromArray(arr);
     }
 }
 
