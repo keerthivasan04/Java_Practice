@@ -10,6 +10,7 @@ public class SampleOutput {
         int a = 0;
         int b = a;
         b = a++;
+        // a gets incremented by one at last step and stored in the variable a
         System.out.println(a + "-" + b);
     }
 }
