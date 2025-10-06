@@ -1,0 +1,7 @@
+<suite name = "suite" parallel = "methods" thread-count = "3">
+    <test name = "Test">
+        <Classes>
+            <class name = "class path"/>
+        </Classes>
+    </test>
+</suite>
