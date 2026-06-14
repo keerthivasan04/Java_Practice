@@ -1,5 +1,8 @@
 package Interview_prep_2025;
 
+import java.util.Arrays;
+import java.util.stream.Collectors;
+
 public class Reverse {
     public static void integerReverse(int a){
         int res = 0;
@@ -18,10 +21,18 @@ public class Reverse {
         System.out.println(res);
     }
 
+    public static String stringReverseEachWordWithoutPositionChange(String str) {
+        return Arrays.stream(str.split(" "))
+                .map(word -> new StringBuilder(word).reverse())
+                .collect(Collectors.joining(" "));
+    }
+
     public static void main(String[] args) {
         int a = 102;
         String s = "Vasan";
+        String str = "I love coding";
         integerReverse(a);
         stringReverse(s);
+        System.out.println(stringReverseEachWordWithoutPositionChange(str));
     }
 }
