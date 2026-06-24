@@ -4,7 +4,7 @@ public class IntegerReverse {
 
     public void revInt(int num) {
 
-        //Integer Reverse
+        //Integer LinkedIN.Reverse
         int res = 0;
         while (num != 0) {
             int b = num % 10;

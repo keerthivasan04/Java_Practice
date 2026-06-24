@@ -1,4 +1,4 @@
-package Interview_prep_2026_June;
+package Interview_prep_2026;
 
 import java.util.Scanner;
 
@@ -18,7 +18,7 @@ public class StringReverse {
         }
         strArr[1] = res;
         String finalRes = String.join(" ", strArr);
-        System.out.println("Reverse only one word in a String : " + finalRes);
+        System.out.println("LinkedIN.Reverse only one word in a String : " + finalRes);
     }
 
     public static void reverseWholeStringByLetter(String s) {

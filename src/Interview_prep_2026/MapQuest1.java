@@ -1,4 +1,4 @@
-package Interview_prep_2026_June;
+package Interview_prep_2026;
 
 import java.util.Arrays;
 import java.util.HashMap;

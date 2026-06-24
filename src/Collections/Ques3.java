@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Ques3 {
     public static void main(String[] args) {
         /*
-        Reverse the ArrayList
+        LinkedIN.Reverse the ArrayList
         Create an ArrayList of String elements, e.g., ["A", "B", "C", "D", "E"].
         Write a method to reverse the order of elements in the ArrayList.
         Print the reversed ArrayList.

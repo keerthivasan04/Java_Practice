@@ -6,7 +6,7 @@ import java.util.List;
 public class StringReverse {
 
     public void stringReverse(String str) {
-        //String Reverse
+        //String LinkedIN.Reverse
         StringBuilder res = new StringBuilder();
         for (int i = 0; i < str.length(); i++) {
             //res = str.charAt(i) + res;            ==> String
@@ -16,7 +16,7 @@ public class StringReverse {
     }
 
     public void stringReverseFromArrayList(List<String> str) {
-        //String Reverse From Array List or Linked List or Vector
+        //String LinkedIN.Reverse From Array List or Linked List or Vector
         for (String s : str){
             stringReverse(s);
         }

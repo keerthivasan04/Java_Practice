@@ -1,4 +1,4 @@
-package Interview_prep_2026_June;
+package Interview_prep_2026;
 
 public class StringPalindrome {
     public static void main(String[] args) {
