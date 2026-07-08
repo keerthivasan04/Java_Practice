@@ -1,3 +1,5 @@
+package Interview_prep_2026.Array;
+
 public class FindMaximumDiffInArray {
     public static void main(String[] args) {
        // FindMaximumDifference - int [] arr = {10,90,2,40,1,25}

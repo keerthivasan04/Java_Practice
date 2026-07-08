@@ -1,4 +1,4 @@
-package Interview_prep_2026;
+package Interview_prep_2026.String;
 
 import java.util.Scanner;
 
@@ -82,9 +82,9 @@ public class StringReverse {
         String str = "I Love Java";
 //        reverseWholeStringByLetter(str);
 //        reverseWholeStringByWord(str);
-//        String st = "Today is a good day";
-//        reverseWholeStringByWordAndLetterWithoutPositionChange(st);
+        String st = "Today is a good day";
+        reverseWholeStringByWordAndLetterWithoutPositionChange(st);
 //        reverseStringByUsingScannerClass();
-        reverseStringWithoutChangingItsPosition(str);
+//        reverseStringWithoutChangingItsPosition(str);
     }
 }

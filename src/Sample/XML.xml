@@ -1,5 +1,5 @@
 <suite name = "suite" parallel = "methods" thread-count = "3">
-    <test name = "FindMaximumDiffInArray">
+    <test name = "Interview_prep_2026.Array.FindMaximumDiffInArray">
         <Classes>
             <class name = "class path"/>
         </Classes>

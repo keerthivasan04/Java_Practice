@@ -1,11 +1,11 @@
-package Interview_prep_2026;
+package Interview_prep_2026.Map;
 
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class MapQuest1 {
+public class MapTestDuplicateKey {
     public static void main(String[] args) {
         Map<String, List<String>> map = new HashMap<>();
         map.put("fruit", Arrays.asList("apple", "mango"));

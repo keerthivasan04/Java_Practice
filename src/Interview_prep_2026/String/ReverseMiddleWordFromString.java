@@ -1,4 +1,4 @@
-package Interview_prep_2026;
+package Interview_prep_2026.String;
 
 public class ReverseMiddleWordFromString {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Interview_prep_2026;
+package Interview_prep_2026.Array;
 
 public class LargestAndSecondLargestInArray {
     public static void main(String[] args) {
@@ -7,12 +7,12 @@ public class LargestAndSecondLargestInArray {
         int secondLargest = Integer.MIN_VALUE;
 
         for (int num : arr) {
-            if (num > largest){
-                secondLargest = largest;
-                largest = num;
-            }else {
-                secondLargest = num;
-            }
+           if (num > largest) {
+               secondLargest = largest;
+               largest = num;
+           } else if (num > secondLargest && num != largest){
+               secondLargest = num;
+           }
         }
         System.out.println(secondLargest);
         System.out.println(largest);
