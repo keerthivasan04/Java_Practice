@@ -1,7 +1,12 @@
+package Interview_Quest;
+
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-class Main {
+class CharCountInAString {
+
+    //UPS
+
     public static void main(String[] args) {
         String str = "Java";
         Map<Character, Integer> map = new LinkedHashMap<>();
